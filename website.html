@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Po & Lea</title>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #E4287C;
+    }
+
+    /* Style the header */
+    header {
+        background-color: #F778A1;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+    }
+
+    /* Container for flexboxes */
+    section {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    /* Style the navigation menu */
+    nav {
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        background: #FFC0CB;
+        padding: 20px;
+    }
+
+    /* Style the list inside the menu */
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    /* Style the content */
+    article {
+        -webkit-flex: 3;
+        -ms-flex: 3;
+        flex: 3;
+        background-color: #FDD7E4;
+        padding: 10px;
+    }
+
+  /* Style the content */
+  articletwo {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #FDD7E4;
+      padding: 10px;
+  }
+
+    /* Style the footer */
+    footer {
+        background-color: #F778A1;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 600px) {
+        section {
+          -webkit-flex-direction: column;
+          flex-direction: column;
+        }
+    }
+    </style>
+    <script language="JavaScript">
+<!-- Hide from old browsers
+
+
+function pickimg(){
+var imagenumber = 16 ;
+var randomnumber = Math.random() ;
+var rand1 = Math.round( (imagenumber-1) * randomnumber) + 1;
+images = new Array
+images[1] = "IMG_8619.JPG" //apollo
+images[2] = "IMG_2666.JPG" //apollo
+images[3] = "IMG_3100.JPG" //lia
+images[4] = "IMG_4560.JPG" //apollo
+images[5] = "IMG_7974.JPG" //apollo
+images[6] = "IMG_8512.JPG" //apollo
+images[7] = "IMG_8562.JPG" //lia 
+images[8] = "IMG_8935.JPG" //lia
+images[9] = "IMG_2618.JPG" //Lia
+images[10] = "IMG_3276.JPG" //lia
+images[11] = "IMG_1851.JPG" //po
+images[12] = "IMG_1848.JPG" //po
+images[13] = "IMG_2481.JPG" //lia
+images[14] = "IMG_2504.JPG" //po
+images[15] = "IMG_7737.JPG" //lia
+images[16] = "IMG_9187.JPG" //lia
+var image = images[rand1]
+document.randimg.src = image
+}
+// -- End Hiding Here -->
+</script>
+
+  </head>
+  <body>
+
+    <h1 style="color:white;">Po & Lia</h1>
+    <p style="color:white;">Welcome to the official website of Po the Golden Retriever and Lia the Cat.</p>
+
+
+    <header>
+      <h2>Biographies</h2>
+    </header>
+
+    <section>
+      <nav>
+        <ul>
+          <li><a href=""onClick="pickimg();return false;"><IMG SRC="YOUR IMAGE" name="randimg" border=0>Click for a random pic!</a></li>
+        </ul>
+      </nav>
+
+      <article>
+        <h1 style="color:white;">Elizabeth</h1>
+        <img src="IMG_3105.jpg" alt="IMG_3105.com" width="350" height="500">
+        <p style="color:white;">Elizabeth, or Lia for short, is a 9 year old cat born in December. She was a valentines day gift from a loving mother to her daughters.</p>
+      </article>
+
+      <articletwo>
+        <h1 style="color:white;">Apollo</h1>
+        <img src="IMG_7994.jpg" alt="IMG_7994.com" width="385" height="500">
+        <p style="color:white;">Apollo, affectionately called Po, is a two year old dog born in May. His family traveled far to retrieve him after falling in love with his personality.</p>
+      </articletwo>
+
+    </section>
+
+    <footer>
+      <p>Thanks for visiting!!</p>
+    </footer>
+  </body>
+</html>
